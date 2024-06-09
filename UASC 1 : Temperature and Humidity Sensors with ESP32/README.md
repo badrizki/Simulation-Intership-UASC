@@ -3,12 +3,12 @@ _Sebuah perangkat yang berfungsi untuk menghitung suhu dan kelembapan lingkungan
 
 # How To Run
 Untuk dapat menjalan program tersebut,lakukan :
-1. Buka file wokwi-project.txt
-2. Salin link https://wokwi.com/projects/400056047283779585
-3. Buka browser lalu klik paste
-4. Setelah muncul rangkaian ESP32 pada wokwi,klik "start the simulation"
-5. Atur suhu dan kelembapan dengan klik komponen DHT22
-6. Sesuaikan suhu dan kelembapan
-7. Apabila suhu kurang dari 25 dan lebih dari 30 derajat,maka buzzer dan LED akan menyala
-8. Begitu juga dengan kelembapan,Apabila kurang dari 70% dan lebih dari 90% maka akan menyala
+1. Buka file wokwi-project.txt.
+2. Salin link https://wokwi.com/projects/400056047283779585.
+3. Buka browser lalu klik paste.
+4. Setelah muncul rangkaian ESP32 pada wokwi,klik "start the simulation".
+5. Atur suhu dan kelembapan dengan klik komponen DHT22.
+6. Sesuaikan suhu dan kelembapan.
+7. Apabila suhu kurang dari 25 dan lebih dari 30 derajat,maka buzzer dan LED akan menyala.
+8. Begitu juga dengan kelembapan,Apabila kurang dari 70% dan lebih dari 90% maka akan menyala.
 9. jika suhu diantara 25-30 dan kelembapan diantara 70%-90% maka buzzer dan LED akan mati.
