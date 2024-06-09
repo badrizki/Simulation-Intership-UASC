@@ -9,4 +9,6 @@ Untuk dapat menjalan program tersebut,lakukan :
 4. Setelah muncul rangkaian ESP32 pada wokwi,klik "start the simulation".
 5. Atur jarak dengan klik komponen HC-SR04,lalu atur jarak sesuai keinginan.
 6. Hasil baca dari komponen HC-SR04 akan ditampilkan pada layar oled.
-7. jika hasil baca tidak sesuai,kemungkinan ada angka toleransi sebanyak -1.
+
+NOTE :
+jika hasil baca tidak sesuai,kemungkinan ada angka toleransi sebanyak -1.
