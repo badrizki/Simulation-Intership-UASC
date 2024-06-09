@@ -1,5 +1,5 @@
 # Intership UASC
-_Pada divisi Low Voltage diberikan tugas untuk membuat beberapa rangkaian IoT_
+_Pada divisi Low Voltage diberikan tugas untuk membuat beberapa rangkaian IoT.Berikut adalah beberapa rangkaian simulasi ESP32 menggunakan aplikasi/web wokwi simulator._
 
 # Simulation Esp32
 Untuk melihat beberapa Project Simulasi dapat dilihat pada folder :
