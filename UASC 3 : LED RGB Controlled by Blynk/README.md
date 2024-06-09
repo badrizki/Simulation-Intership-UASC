@@ -14,4 +14,4 @@ Untuk dapat menjalan program tersebut,lakukan :
 9. Klik warna led yang ingin dinyalakan.
 
 Note :
-ping pada rangkaian ini tak selalu sama,jadi indikator terkoneksi ada pada tulisan "ready"
+ping pada rangkaian ini tak selalu sama,jadi indikator terkoneksi ada pada tulisan "ready".
