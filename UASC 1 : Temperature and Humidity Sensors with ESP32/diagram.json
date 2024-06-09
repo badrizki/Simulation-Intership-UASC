@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "Rizki Ovi",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -115.2, "left": -4.76, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -258.9,
+      "left": 23.4,
+      "attrs": { "temperature": "28.5", "humidity": "70.5" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -128.4,
+      "left": -82.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -141.6,
+      "left": 136.2,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v9.6", "h-57.6", "v48" ] ],
+    [ "dht1:SDA", "esp:23", "yellow", [ "v19.2", "h76.9", "v48" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v28.8", "h48", "v28.8" ] ],
+    [ "bz1:1", "esp:GND.3", "black", [ "v0" ] ],
+    [ "bz1:2", "esp:19", "cyan", [ "v0" ] ],
+    [ "led1:C", "esp:GND.1", "black", [ "v0" ] ],
+    [ "led1:A", "esp:12", "limegreen", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
